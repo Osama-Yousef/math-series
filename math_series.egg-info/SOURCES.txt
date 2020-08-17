@@ -1,0 +1,8 @@
+README.md
+setup.py
+math_series/__init__.py
+math_series/math_series.py
+math_series.egg-info/PKG-INFO
+math_series.egg-info/SOURCES.txt
+math_series.egg-info/dependency_links.txt
+math_series.egg-info/top_level.txt
