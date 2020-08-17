@@ -1,10 +1,6 @@
 from math_series import __version__
-
 from math_series.math_series import lucas , sum_series , Fibonacci
 
-
-
-# using TDD
 
 # 0, 1, 1, 2, 3, 5, 8, 13, 21 ,34 ,55,89,144,233,377,610   fibonacci
 # 2, 1, 3, 4, 7, 11, 18, 29, 47,76,123,199,322,521,843,1364    lucas
@@ -18,7 +14,6 @@ def test_zero():
     expected = 0
     actual = Fibonacci(0)
     assert actual == expected
-
 
 def test_one():
     expected = 1
